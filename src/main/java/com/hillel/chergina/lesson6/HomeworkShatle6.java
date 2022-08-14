@@ -24,7 +24,7 @@ public class HomeworkShatle6 {
                         if ( x != 4 && k != 4 && j != 4) {
                             System.out.println(j +""+ k + x);
                             a++;
-                            if (a == 100) {
+                            if (a > 100) {
                                 System.exit(0);
                             }
                         }
